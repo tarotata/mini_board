@@ -22,4 +22,5 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: postgresq1
+  database: simple_board_production
